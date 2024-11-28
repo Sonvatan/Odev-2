@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Ödev-2</title>
+        <link rel="icon" href="/assets/images/vatanım.jpg">
+        <link rel="stylesheet" href="./assets/css/main.css"/>
+        <link rel="stylesheet" href="./assets/css/contact.css"/>
+    </head>
+    <body>
+        <div
+            class="header-table"
+        >
+            <div
+                class="header-table-cell"
+            >
+                <div
+                    class="header-container"
+                >
+                    <div
+                        class="header-content-container click-event"
+                        onclick="window.location.href='/index.html'"
+                    >
+                        <div
+                            class="header-content"
+                        >
+                            <span>
+                                Türk Savunma Sanayi
+                            </span>
+                            
+                             </div>
+                        </div>
+                    <div
+                            class="nav-container"
+                        >
+                        <a
+                            id="index"
+                            href="/index.html"
+                            class="click-event"
+                        >
+                            Ana Sayfa
+                        </a>
+                        <a
+                            id="aboutus"
+                            href="/aboutus.html"
+                            class="click-event"
+                        >
+                            Hakkımızda
+                        </a>
+                        <a
+                            id="contact"
+                            href="/contact.html"
+                            class="click-event"
+                        >
+                            İletişim
+                        </a>
+                       </div>
+                   <div
+                        class="mobile-menu-button"
+                        onclick="toggleMenu()"
+                    >
+                        <i class="fas fa-bars fa-xl"></i>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-container">
+            <span class="section-title">😁Düşmanı Görmesi Yeter, Anında İletişime Geçer.😁</span>
+            <img
+                src="assets/images/aboutus/logo10.png"
+                class="contact-section-image"
+            />     
+            <span class="section-title"> İletişim</span>
+            <div class="section-content-container">
+                    <div class="contact-info">
+                    <div class="contact-item">
+                        <span>☎️ Telefon</span><p>
+                        <span>xxx xxx xxx x </span>
+                    </div>
+                    <div class="contact-item">
+                        <span> 📧 E-mail</span><p>
+                        <span>xxx xxx xxx x</span>
+                    </div>
+                </div>
+                <div class="contact-section-content-container">
+                    <div class="text-input-container">
+                        <label for="name-surname">Adınız ve Soyadınız</label>
+                        <input id="name-surname" type="text"placeholder="İsim"/>
+                    </div>
+                    <div class="text-input-container">
+                        <label for="subject">E-mail:</label>
+                        <input id="subject" type="text" placeholder="E-mail"/>
+                    </div>
+                    <div class="multi-text-input-container">
+                        <label for="message">Mesajınız:</label>
+                        <textarea id="message" placeholder="Mesajınız"></textarea>
+                    </div>
+                    <button
+                       class="filled fill-container contact-form-send"   
+                    >
+                        Gönder <img src="./assets/icons/chevron-right.svg"/>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div
+            class="footer-container"
+            id="footer-container"
+        >
+            <img
+                src="assets/images/aboutus/logo2.jpg"
+                class="footer-logo"
+            />
+                <span id="copyright-text"></span>
+            </div>
+            <script
+                src="./assets/js/main.js"
+            ></script>
+         <script src="https://kit.fontawesome.com/cacd7d94a3.js" crossorigin="anonymous"></script>    
+    </body>
+</html>

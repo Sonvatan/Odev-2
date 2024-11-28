@@ -1,0 +1,1 @@
+document.getElementById("copyright-text").innerHTML = ` ${new Date() .getFullYear()} - <b>SON SAVAŞ</b> `;

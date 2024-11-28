@@ -1,0 +1,40 @@
+.welcome-container {
+    background-image: url("../images/vatanım.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.welcome-content-container {
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    width: 40%;
+    left: 40px;
+    gap: 30px;
+}
+.welcome-content-container span:nth-child(1) {
+    font-family:inter-semibold;
+    font-size: 50px;
+    color: red;
+}
+
+.welcome-content-container span:nth-child(2) {
+    font-family: inter-semibold;
+    line-height: 22px;
+    font-size: 50px;
+    color: red;
+}
+
+.header-logo {
+   border-radius: 50%;
+   display: flex;
+
+}
+
+
+
+
+ 
+
