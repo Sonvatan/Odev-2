@@ -28,12 +28,6 @@
   margin: 0;
 }
 
-html, body {
-  font-family: inter-regular;
-  height: 104%;
-  width: 104%;
-}
-
 .header-table {
   display: table;
   width: 100%;
@@ -43,7 +37,6 @@ html, body {
   background-color: white;
   display: table-cell;
   padding: 20px;
-  width: 100%;
 }
 
 .header-container {
@@ -98,7 +91,7 @@ a:hover {
   align-items: center;
   font-size: 24px;
   display: flex;
-  padding: 20px;
+  padding: 40px;
   height: 70%;
   width: 100%;
 }
@@ -168,7 +161,7 @@ a:hover {
   background-color:green;
   align-items: center;
   color: white;
-  padding: 20px;
+  padding: 40px;
   height: 70%;
   width: 100%;
 }
