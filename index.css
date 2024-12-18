@@ -91,9 +91,7 @@ a:hover {
   align-items: center;
   font-size: 24px;
   display: flex;
-  padding: 40px;
   height: 70%;
-  width: 100%;
 }
   
 .header-content h1 {
@@ -161,9 +159,8 @@ a:hover {
   background-color:green;
   align-items: center;
   color: white;
-  padding: 40px;
+  display: block;
   height: 70%;
-  width: 100%;
 }
   
 .partners h2 {
